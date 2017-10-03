@@ -147,7 +147,7 @@ public class ArrayLinearList implements LinearList {
         }
     }
 
-    @Override
+
         public Object clone(Object [] a){  
         a = new Object[size];
         a = element.clone();
