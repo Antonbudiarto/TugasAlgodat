@@ -59,8 +59,6 @@ public class Driver {
         System.out.println("--------------------------------------------");
         System.out.println("tuut... tuut..");
         System.out.print("Hasil dari Clone :");
-
-        System.out.println("Isi objek x : " + x.toString());
         System.out.println("Isi objek y : " + x.clone(y));
         System.out.println("--------------------------------------------");
         System.out.println("Soal No.8 Clear");
