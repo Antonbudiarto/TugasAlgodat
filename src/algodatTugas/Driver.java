@@ -4,7 +4,7 @@ public class Driver {
 
     public static void main(String[] args) {
         ArrayLinearList x = new ArrayLinearList();
-        ArrayLinearList y = new ArrayLinearList();
+        
         System.out.println("Soal no.4 Add");
         System.out.println("--------------------------------------------");
         System.out.println("tuut... tuut..");
@@ -13,6 +13,7 @@ public class Driver {
         x.add(2, "c");
         x.add(3, "d");
         x.add(4, "e");
+        Object[] y = new Object[20];
         System.out.println(x.size());
         System.out.println("Isi awal = " + x.toString());
         System.out.println("Tambah data index ke 0,3,7");
@@ -57,10 +58,10 @@ public class Driver {
         System.out.println("Soal No.9 Clone");
         System.out.println("--------------------------------------------");
         System.out.println("tuut... tuut..");
-        System.out.print("Hasil dari Clone ");
-      //  y.cloning();
-        System.out.println("Isi objek x : " +x.toString());
-        System.out.println("Isi objek y : " );
+        System.out.print("Hasil dari Clone :");
+
+        System.out.println("Isi objek x : " + x.toString());
+        System.out.println("Isi objek y : " + x.clone(y));
         System.out.println("--------------------------------------------");
         System.out.println("Soal No.8 Clear");
         System.out.println("--------------------------------------------");
