@@ -55,7 +55,7 @@ public class Driver {
         System.out.println(x.element.length);
         System.out.println(x.toString());
         System.out.println("--------------------------------------------");
-        System.out.println("Soal No.9 Clone");
+        System.out.println("Soal No.12 Clone");
         System.out.println("--------------------------------------------");
         System.out.println("tuut... tuut..");
         System.out.print("Hasil dari Clone :");
