@@ -23,5 +23,5 @@ public interface LinearList {
     public Object clear();
 
     public void removeRange(int fromIndex, int toIndex);
-    public Object cloning (Object [] a);
+    public Object clone (Object [] a);
 }

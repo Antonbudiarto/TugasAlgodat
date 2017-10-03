@@ -1,6 +1,5 @@
 package algodatTugas;
 
-
 public class ArrayLinearList implements LinearList {
 
     protected Object[] element, element2;
@@ -149,19 +148,11 @@ public class ArrayLinearList implements LinearList {
     }
 
     @Override
-public Object clone() {
-    try {
-        ArrayList<?> v = (ArrayList<?>) super.clone();
-        v.element = Arrays.copyOf(element, size);
-        v.modCount = 0;
-        return v;
-    } catch (CloneNotSupportedException e) {
-        // this shouldn't happen, since we are Cloneable
-        throw new InternalError(e);
-    }
-}
-    }
+        public Object clone(Object [] a){  
+        a = new Object[size];
+        a = element.clone();
+        return toString();
+        }
 
-   
-
+    
 }
